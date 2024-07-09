@@ -12,7 +12,7 @@ resource "azurerm_storage_account" "StorageAccountDemo" {
   account_replication_type = "GRS"
 
   tags = {
-    video = "azure"
-    channel = "CloudQuickLabs"
+    file = "azure"
+    environment = "demo"
   }
 }
